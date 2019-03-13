@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "prop-types": "^15.7.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8"
+    "react-ga": "^2.5.7",
+    "react-scripts": "2.1.8",
+    "ts-pnp": "^1.0.1",
+    "typescript": "^3.3.3333"
   },
   "scripts": {
     "start": "react-scripts start",
