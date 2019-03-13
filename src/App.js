@@ -1,25 +1,37 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import ReactGA from 'react-ga';
 import './App.css';
+
+
+function initializeReactGA() {
+  ReactGA.initialize('UA-123791717-1');
+  ReactGA.pageview('/homepage');
+}
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <p>
+          Hi, I’m <strong>Phillip</strong>.<br/>
+            <strong>Software Engineer</strong> at <a href="http://verve.co">Code for Africa</a>.
+      </p>
+
+          <section className='social'>
+
+            <p>Follow me on:</p>
+
+            <ul>
+            <li><a href="https://twitter.com/phillipAhereza">Twitter 🐦</a></li>
+            <li><a href="https://github.com/phillipahereza">Github 🐙</a></li>
+            </ul>
+
+          </section>
+
+          <footer>
+            <p>This website will be updated as I learn React ☺️</p>
+          </footer>
+              
       </div>
     );
   }
