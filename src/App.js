@@ -1,20 +1,17 @@
 import React, { Component } from 'react';
-import ReactGA from 'react-ga';
 import './App.css';
 
 
-function initializeReactGA() {
-  ReactGA.initialize('UA-123791717-1');
-  ReactGA.pageview('/homepage');
-}
-
 class App extends Component {
   render() {
+    const style = {
+      fontWeight: 600
+    }
     return (
       <div className="App">
         <p>
           Hi, I’m <strong>Phillip</strong>.<br/>
-            <strong>Software Engineer</strong> at <a href="http://verve.co">Code for Africa</a>.
+            <strong style={style}>Software Engineer</strong> at <a href="http://verve.co">Code for Africa</a>.
       </p>
 
           <section className='social'>
