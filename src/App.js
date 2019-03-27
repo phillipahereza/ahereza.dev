@@ -19,8 +19,7 @@ class App extends Component {
             <p>Follow me on:</p>
 
             <ul>
-            <li><a href="https://twitter.com/phillipAhereza">Twitter 🐦</a></li>
-            <li><a href="https://github.com/phillipahereza">Github 🐙</a></li>
+            <li><a href="https://github.com/phillipahereza" target='_blank'>Github 🐙</a></li>
             </ul>
 
           </section>
