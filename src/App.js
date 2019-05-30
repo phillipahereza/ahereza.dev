@@ -20,7 +20,7 @@ class App extends Component {
         </p>
 
         <section className="social">
-          <p>Follow me on:</p>
+          <p>Contact me</p>
 
           <ul>
             <li>
@@ -32,6 +32,18 @@ class App extends Component {
                 Github{" "}
                 <span role="img" aria-label="smiley face">
                   🐙
+                </span>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="mailto:phillip@ahereza.dev?Subject=Hello"
+                rel="noopener noreferrer"
+              >
+                phillip@ahereza.dev{" "}
+                <span role="img" aria-label="mail">
+                  💌
                 </span>
               </a>
             </li>
