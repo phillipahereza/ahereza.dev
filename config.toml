@@ -1,0 +1,81 @@
+baseURL = "https://ahereza.dev/"
+title   = "Phillip Ahereza"
+
+baseurl = "/"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+# googleAnalytics = ""
+# disqusShortname = ""
+
+buildDrafts  = false
+buildFuture  = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = true
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  description = "Homepage and blog by Djordje Atlialp"
+  keywords = "homepage, blog, science, informatics, development, programming"
+  images = [""]
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+
+[languages]
+  [languages.en]
+    title = "Phillip Ahereza"
+    subtitle = "A simple theme for Hugo"
+    keywords = ""
+    copyright = ""
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "λ ahereza ~ →"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+	# You can create a language based menu
+
+# Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/phillipahereza/"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:phillip@ahereza.dev"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/phillipahereza/"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/phillip-ahereza-11a4969b/"
+# [menu]
+#   [[menu.main]]
+#     identifier = "work"
+#     name       = "Work"
+#     url        = "work/"
