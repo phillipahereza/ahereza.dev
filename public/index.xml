@@ -1,1 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Phillip Ahereza</title><link>https://ahereza.dev/</link><description>Recent content on Phillip Ahereza</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://ahereza.dev/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Phillip Ahereza</title>
+    <link>https://ahereza.dev/</link>
+    <description>Recent content on Phillip Ahereza</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://ahereza.dev/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Work</title>
+      <link>https://ahereza.dev/work/</link>
+      <pubDate>Sat, 02 Feb 2019 11:34:00 +0100</pubDate>
+      
+      <guid>https://ahereza.dev/work/</guid>
+      <description>Libraries  MTN MOMO API Go Wrapper AFRICASTALKING API Go Wrapper  Projects Javascript Website Scrapper Simple web utility to enable developers to scrape websites that load content using javascript
+Technologies: ReactJS, Python, FastAPI
+Chrome T-Rex Game for the Terminal A simple Go implementation of the offline Chrome jumping T-Rex game.
+Technologies: Go
+Space Impact Go (Nokia Game) This is a clone of the Space Impact mobile game series that was published by Nokia written in Go to be played in the terminal.</description>
+    </item>
+    
+  </channel>
+</rss>
