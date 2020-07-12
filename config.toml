@@ -1,5 +1,6 @@
 baseURL = "https://ahereza.dev/"
 title   = "Phillip Ahereza"
+content = ""
 
 baseurl = "/"
 languageCode = "en-us"
@@ -31,8 +32,8 @@ disableHugoGeneratorInject = false
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  description = "Homepage and blog by Djordje Atlialp"
-  keywords = "homepage, blog, science, informatics, development, programming"
+  description = "Home is where the hatred is - Gil Scott-Heron"
+  keywords = "homepage, blog, go, python, development, aws"
   images = [""]
 
   # Directory name of your blog content (default is `content/posts`)
